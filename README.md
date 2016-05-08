@@ -8,6 +8,6 @@ to user.
 because verify token starts to be a part of hash and not normal GET variable.
 
 A repository for reproducing [LoopBack community issues][wiki-issues].
-
+2016.5
 [wiki-issues]: https://github.com/strongloop/loopback/wiki/Reporting-issues
 [line24]:https://github.com/ambrt/loopback-sandbox/blob/master/common/models/customer.js#L24
