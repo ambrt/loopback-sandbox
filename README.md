@@ -1,4 +1,4 @@
-# loopback-sandbox
+# Breaking verifyHref with redirct to hash
 
 In options provided to `verify` method of User based model (customer.js),
 there is a `redirect` property [line 24][line24]. It is used to create a `verifyHref` for sending
