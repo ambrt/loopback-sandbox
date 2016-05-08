@@ -1,9 +1,11 @@
 # loopback-sandbox
 
-In customer.js model, based on User model, there is a `redirect`
-that user is pointed to when he verifies his email.<br><br>
+In options provided to `verify` method of User based model (customer.js),
+there is a `redirect` property. It is used to create a `verifyHref` for sending
+to user.
+<br><br>
  If `redirect` is hash path (like `/#/login`), it breaks the verification,
-because verify token starts to be aprt of hash and not normal GET variable.
+because verify token starts to be a part of hash and not normal GET variable.
 
 A repository for reproducing [LoopBack community issues][wiki-issues].
 
