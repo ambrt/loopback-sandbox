@@ -15,6 +15,7 @@
   },
   "User": {
     "dataSource": "db"
+
   },
   "AccessToken": {
     "dataSource": "db",
@@ -31,5 +32,15 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Email": {
+    "dataSource": "Email"
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true,
+    "options": {
+      "emailVerificationRequired": true
+    }
   }
 }

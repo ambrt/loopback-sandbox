@@ -2,5 +2,22 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "Email": {
+    "name": "Email",
+    "defaultForType": "mail",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "localhost",
+        "secureConnection": true,
+        "port": 587,
+        "auth": {
+          "user": "admin@localhost",
+          "pass": "pass"
+        }
+      }
+    ]
   }
 }
